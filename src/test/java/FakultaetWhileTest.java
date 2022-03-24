@@ -6,7 +6,7 @@ class FakultaetWhileTest {
 
     @Test
     void calculateFakulty_whenValueTwo_shouldReturnThree() {
-        assertEquals(2, FakultaetWhile.calculateFacultyWhile(2));
+        assertEquals(3, FakultaetWhile.calculateFacultyWhile(2));
     }
 
     @Test

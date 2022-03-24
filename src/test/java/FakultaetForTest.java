@@ -6,7 +6,7 @@ class FakultaetForTest {
 
     @Test
     void calculateFakulty_whenValueTwo_shouldReturnThree() {
-        assertEquals(2, FakultaetFor.calculateFakulty(2));
+        assertEquals(3, FakultaetFor.calculateFakulty(2));
     }
 
     @Test
